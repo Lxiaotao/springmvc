@@ -9,5 +9,8 @@
         <module name="springmvc-01-servlet" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springmvc-01-servlet" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
