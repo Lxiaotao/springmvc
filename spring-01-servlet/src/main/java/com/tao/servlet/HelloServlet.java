@@ -1,3 +1,4 @@
+package com.tao.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -21,6 +22,7 @@ public class HelloServlet extends HttpServlet {
         //调用业务层
 
         //视图转发或者重定向
+        req.getRequestDispatcher("/WEB-INF/jsp/test.jsp").forward(req,resp);
 
 
 
